@@ -175,8 +175,8 @@ static const char *volumeincrease[] = { "/home/hanzi/proj/scripts/volume_increas
 static const char *volumedecrease[] = { "/home/hanzi/proj/scripts/volume_decrease.sh", NULL};
 static const char *vscode[]={"code",NULL};
 static const char *firefox[]={"firefox",NULL};
-static const char *idea[]={"/home/xuhuipai/SoftWare/work/idea-IU-221.5787.30/bin/idea.sh",NULL};
-static const char *dataGrip[]={"/home/xuhuipai/SoftWare/work/DataGrip-2021.3.4/bin/datagrip.sh",NULL};
+static const char *idea[]={"/home/xuhuipai/SoftWare/work/idea/bin/idea.sh",NULL};
+static const char *dataGrip[]={"/home/xuhuipai/SoftWare/work/mysqlTools/bin/datagrip.sh",NULL};
 static const char *apifox[]={"/home/xuhuipai/SoftWare/work/apifox/Apifox.AppImage",NULL};
 static const char *lockscreen[] = { "slock", NULL};
 
