@@ -174,6 +174,7 @@ static const char *volumetoggle[] = { "/home/hanzi/proj/scripts/volume_toggle.sh
 static const char *volumeincrease[] = { "/home/hanzi/proj/scripts/volume_increase.sh", NULL};
 static const char *volumedecrease[] = { "/home/hanzi/proj/scripts/volume_decrease.sh", NULL};
 static const char *vscode[]={"code",NULL};
+static const char *ranger[]={"ranger",NULL};
 static const char *firefox[]={"firefox",NULL};
 static const char *idea[]={"/home/xuhuipai/SoftWare/work/idea/bin/idea.sh",NULL};
 static const char *dataGrip[]={"/home/xuhuipai/SoftWare/work/mysqlTools/bin/datagrip.sh",NULL};
@@ -186,7 +187,8 @@ static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = rofi } },
 	{ MODKEY,                     	XK_f,      spawn,    	   {.v = firefox } },
-        { MODKEY,                     	XK_c,      spawn,    	   {.v = vscode } },
+        { MODKEY,                     	XK_v,      spawn,    	   {.v = vscode } },       
+        { Mod4Mask,                     	XK_e,      spawn,    	   {.v = ranger } },
 	{ Mod4Mask,                     XK_i,      spawn,    	   {.v = idea } },
 	{ Mod4Mask,                     XK_n,      spawn,    	   {.v = dataGrip } },
 	{ Mod4Mask,                     XK_p,      spawn,    	   {.v = apifox } },
